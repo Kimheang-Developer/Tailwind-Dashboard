@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="block w-full overflow-x-auto overflow-y-hidden">
+        <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+                <tr>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Name
+                    </th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Email
+                    </th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Status
+                    </th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200">
+                <tr>
+                    <td class="border-t-0 px-6 p-4 align-middle border-l-0 text-xs text-left whitespace-nowrap">John Doe</td>
+                    <td class="border-t-0 px-6 p-4 align-middle border-l-0 text-xs text-left whitespace-nowrap">john@email.com</td>
+                    <td class="border-t-0 px-6 p-4 align-middle border-l-0 text-xs text-left whitespace-nowrap">active</td>
+                    <td class="border-t-0 px-6 p-4 align-middle border-l-0 text-xs text-left whitespace-nowrap">
+                        <a href="" class="bg-blue-500 text-white text-xs font-semibold py-1 px-2 uppercase rounded shadow hover:shadow-lg hover:bg-blue-400 transition duration-150 ease-linear">
+                            <span>Edit</span>
+                        </a>
+
+                        <button type="button" class="bg-red-600 text-white text-xs font-semibold py-1 px-2 uppercase rounded shadow hover:shadow-lg hover:bg-red-500 transition duration-150 ease-linear">
+                            <span>Delete</span>
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
